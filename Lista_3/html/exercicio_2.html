@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio_2</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var nomeFilme = window.prompt("Qual seu filme favorito?")
+    var anoLancamento = window.prompt("Qual a data de lançamento?")
+    var nomeProtagonista = window.prompt("Qual o nome do protagonista")
+
+    var filme =
+    {
+        nome: nomeFilme,
+        lancamento: anoLancamento,
+        protagonista: nomeProtagonista
+    }
+    var database = []
+    database.push(filme)
+    document.writeln("Nome do Filme: " + database[0].nome + "<br>Ano de lançamento: " + database[0].lancamento + 
+                     "<br>Nome do(a) Protagonista: "+ database[0].protagonista)
+</script>
+</html>
