@@ -1,0 +1,194 @@
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.bolinhoQueijo {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.bolinhoQueijo h3{
+    color: black;
+    font-size: 25px;
+}
+.bolinhoQueijo p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.bolinhoQueijo img{
+    width: 280px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.bolinhoQueijo button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.coxinha {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.coxinha h3{
+    color: black;
+    font-size: 25px;
+}
+.coxinha p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.coxinha img{
+    width: 280px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.coxinha button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.kibe {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.kibe h3{
+    color: black;
+    font-size: 25px;
+}
+.kibe h2{
+    color: black;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.kibe p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.kibe img{
+    width: 270px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 8px;
+}
+.kibe button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.miniPizza {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.miniPizza h3{
+    color: black;
+    font-size: 25px;
+}
+.miniPizza h2{
+    color: black;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.miniPizza p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.miniPizza img{
+    width: 280px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 8px;
+}
+.miniPizza button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.enroladinhoSalsicha {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.enroladinhoSalsicha h3{
+    color: black;
+    font-size: 25px;
+}
+.enroladinhoSalsicha p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.enroladinhoSalsicha img{
+    width: 300px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.enroladinhoSalsicha button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.bolinhoCalabresa {
+    border: 1px solid white;
+    width: 350px;
+    text-align: center;
+}
+.bolinhoCalabresa h3{
+    color: black;
+    font-size: 25px;
+}
+.bolinhoCalabresa h2{
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.bolinhoCalabresa p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+.bolinhoCalabresa img{
+    width: 300px;
+    margin: 8px;
+    border: 2px solid white;
+    margin-top: 8px;
+}
+.bolinhoCalabresa button{
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+.produtos button:hover {
+    color: rgb(255, 49, 49);
+}
