@@ -17,7 +17,7 @@ app.get('/listar-produtos', (req, res) => {
 app.post('/adicionar-produto', (req, res) => {
     try {
         let body = req.body
-        bancoDeDadosProdutos.push(produto)
+        bancoDeDadosProdutos.push(body)
         return res.status(200).json({ message: 'Produto adicionado com sucesso'})
     } catch (error){
         return res.status(400).json({ error: 'Erro ao adicionar produto.'})
