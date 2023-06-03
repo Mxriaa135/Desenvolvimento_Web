@@ -18,12 +18,14 @@ app.get("/listar-bebidas", async (req,res) => {
 })
 app.post("/cadastrar-bebida", async (req,res) => {
     try{
-        const {nome, descricao, valor} = req.body
+        const {nome, descricao, fabricante, emEstoque, publicadoEm} = req.body
 
         let bebida = {
             nome,
             descricao,
-            valor
+            fabricante,
+            emEstoque,
+            publicadoEm
         }
 
         await Bebida.create(bebida)
@@ -42,12 +44,14 @@ app.get("/listar-lanches", async (req,res) => {
 })
 app.post("/cadastrar-lanche", async (req,res) => {
     try{
-        const {nome, descricao, valor} = req.body
+        const {nome, descricao, vegano, emEstoque, publicadoEm} = req.body
 
         let lanche = {
             nome,
             descricao,
-            valor
+            vegano,
+            emEstoque,
+            publicadoEm
         }
 
         await Lanche.create(lanche)
