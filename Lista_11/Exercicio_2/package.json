@@ -2,15 +2,15 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-  "name": "lista_9",
+  "name": "exercicio_2",
   "version": "1.0.0",
-  "main": "exercicio_1.js",
-  "devDependencies": {},
+  "main": "exercicio_2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "description": ""
 }
