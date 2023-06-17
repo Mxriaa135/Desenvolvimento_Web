@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8000
+const port = 4000
 const mongoose = require('mongoose')
 const connectionString = "mongodb+srv://Mxriaa:teste123@appdbaula.micwrct.mongodb.net/"
 const Funcionario = require('./models/funcionario')
@@ -45,7 +45,7 @@ app.post("/cadastrar-produto", async (req,res) => {
     try{
         const {nome, descricao, valor, emEstoque, publicadoEm} = req.body
 
-        let lanche = {
+        let produto = {
             nome,
             descricao,
             valor,
@@ -53,10 +53,10 @@ app.post("/cadastrar-produto", async (req,res) => {
             publicadoEm
         }
 
-        await Produto.create(Produto)
+        await Produto.create(produto)
         return res.status(200).json({ message: 'Produto cadastrado a lista com sucesso'})
     }catch (error) {
-        return res.status(400).json({ error: 'Erro ao cadastrar produto a lista.'})
+        return res.status(500).json({ error: 'Erro ao cadastrar produto a lista.'})
     }
 })
 

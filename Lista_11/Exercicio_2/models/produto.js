@@ -5,9 +5,9 @@ const produtoSchema = mongoose.Schema({
     descricao: { type: String, required: true},
     valor: { type: Number, required: true},
     emEstoque: { type: Boolean, required: true},
-    publicadoEm: { type: Number, required: true}
+    publicadoEm: { type: Date, required: true}
 })
 
-const produto = mongoose.model('produtos', produtoSchema)
+const produto = mongoose.model('Produtos', produtoSchema)
 
 module.exports = produto
